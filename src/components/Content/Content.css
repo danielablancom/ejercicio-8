@@ -1,0 +1,8 @@
+.container__text{
+    margin: 5%;
+}
+.container__section{
+    max-width: 80%;
+    justify-content: center;
+    margin: 0 auto;
+}

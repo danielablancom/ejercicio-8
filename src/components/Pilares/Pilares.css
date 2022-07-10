@@ -1,0 +1,21 @@
+.img-col img{
+    width: 100%; 
+}
+.img-col {
+    width:20%; 
+    margin: 0 auto;
+}
+.container-section{
+    background-color: #F2F2F2; 
+ }
+ .container-col{
+     border-right-style: groove;
+     text-align: center;
+     padding: 15px;
+ }
+ @media (min-width: 768px){
+     .row-container {
+         display: flex;
+         margin: 5px 0; 
+     }
+ }

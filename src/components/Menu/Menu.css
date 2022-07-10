@@ -1,0 +1,111 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    background-color: #f3f3f3;
+  }
+  
+  .header__list {
+    display: flex;
+    flex-direction: row;
+    font-size: 0.6rem;
+    padding: inherit;
+    color: #5e5e5e;
+    justify-content: space-around;
+    width: 50vw;
+    text-decoration: none;
+  }
+  
+  .header__list--list {
+    font-size: 0.6rem;
+    padding: 0;
+    justify-content: space-evenly;
+    display: flex;
+    flex-direction: column;
+    text-decoration: none;
+    color: #5e5e5e;
+  }
+  
+  .header__logo {
+    width: 7vh;
+    padding-left: 4vw;
+
+  }
+  .png-logo {
+    width: 100%;
+  }
+  
+  @media (min-width: 376px) and (max-width: 480px) {
+    .header__list--list  {
+      font-size: 0.6rem;
+    }
+  }
+  @media (min-width: 481px) and (max-width: 768px) {
+    
+    .header__list--list  {
+      font-size: 0.8rem;
+      
+    }
+    .header__logo  {
+      width: 13vw;
+    }
+  }
+  
+  @media (min-width: 769px) and (max-width: 1200px) {
+    .header {
+      height: 7vh;
+    }
+  
+    .header__list{
+      padding: 0;
+      justify-content: space-evenly;
+    }
+    .header__list--list  {
+      font-size: 1.2rem;
+      padding: 0;
+      justify-content: space-evenly;
+      display: flex;
+      flex-direction: column;
+      text-decoration: none;
+      color: #5e5e5e;
+    }
+    .header__logo  {
+      width: 10vh;
+      padding-left: 4vw;
+      
+  }
+  
+  }
+  
+  @media (min-width: 1201px) {
+      .header{
+          padding-top: 2%;
+      }
+    .header__list {
+      font-size: 1.2rem;
+      padding: 0;
+      justify-content: space-evenly;
+      position: relative;
+      z-index: 1;
+  
+    }
+    .header__list--list {
+      font-size: 1.2rem;
+      padding: 0;
+      justify-content: space-evenly;
+      display: flex;
+      flex-direction: column;
+      text-decoration: none;
+      color: #5e5e5e;
+    }
+  
+    .header__logo {
+      padding-top: 1vh;
+      width: 8vw;
+      padding-left: 4vw; 
+    }
+  
+    .png-logo {
+      width: 100%;
+    }
+  }
